@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import LastIndex from '../Topics/LastIndex.js'
 import EvenAndOdd from '../Topics/EvenAndOdd.js'
 import FilterObject from '../Topics/FilterObject.js'
 import FilterString from '../Topics/FilterString.js'
@@ -10,6 +11,7 @@ export default class TopicBrowser extends Component {
     render() {
         return (
             <div>
+                <LastIndex />
                 <EvenAndOdd />
                 <FilterObject />
                 <FilterString />
